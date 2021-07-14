@@ -1,5 +1,12 @@
 # This page has been published under this [link](https://covid-19-mateusz-szebestik.netlify.app/)
 
+# Used technologies
+- React
+- React-router
+- Redux
+- Redux-persist
+- css modules
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
