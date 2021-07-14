@@ -5,7 +5,7 @@ import CountrySite from './sites/CountrySite/CountrySite';
 import reportWebVitals from './reportWebVitals';
 import { store, persistor } from './reducers'
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import { PersistGate } from 'redux-persist/integration/react';
