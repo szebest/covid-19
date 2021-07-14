@@ -1,0 +1,45 @@
+.noselect {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+}
+
+.styledPagination {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.styledPagination ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.styledPagination li {
+    cursor: pointer;
+    padding: 1em;
+    min-width: 1.5em;
+    min-height: 1.5em;
+    text-align: center;
+    margin: 0.5em;
+    background-color: rgba(220, 220, 220, 0.5);
+    border-radius: 50%;
+}
+
+.styledPagination li:hover {
+    background-color: rgba(180, 180, 180, 0.75);
+}
+
+.activePage {
+    border: 1px solid rgba(255, 0, 0, 0.75);
+}

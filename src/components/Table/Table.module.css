@@ -1,0 +1,66 @@
+.noselect {
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+   -khtml-user-select: none; 
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; 
+}
+
+
+.clickable {
+  cursor: pointer;
+}
+
+.contentTable {
+  margin: 15px 15px;
+  table-layout:fixed;
+  border-collapse: collapse;
+  font-size: 1.2em;
+  min-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  transition: all 0.5s linear;
+}
+
+.contentTable thead tr {
+  background-color: #009879;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.contentTable th, .contentTable td {
+  padding: 12px 15px;
+}
+
+.contentTable tbody tr {
+  background-color: #fff;
+  border-bottom: 1px solid #aaa;
+
+  transition: all 0.2s linear;
+}
+
+.contentTable tbody tr:hover {
+  color: #009879;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.contentTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.contentTable tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+@media only screen and (max-width: 580px) {
+  .contentTable {
+    overflow-x: auto;
+    display: block;
+  }
+}
