@@ -16,7 +16,7 @@ function Table( { rows, columns, sortingFunction } ) {
         <table className={`${classes.contentTable} ${classes.noselect}`}>
             <thead>
                 <tr key="Top">
-                    {columns.map(column => <th key={column} className={classes.clickable}>{column}</th>)}
+                    {columns.map(column => <th key={column}>{column}</th>)}
                 </tr>
             </thead>
             <tbody>
