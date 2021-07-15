@@ -8,6 +8,7 @@
     margin: 0;
     margin-bottom: 15px;
     background-color: rgb(102, 102, 102, 0.7);
+    z-index: 1000;
 }
 
 .navbar img {
